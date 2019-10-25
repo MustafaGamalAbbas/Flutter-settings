@@ -3,10 +3,10 @@ import 'package:flutter_settings/checkbox/settings_checkbox_factory.dart';
 import 'package:flutter_settings/util/SettingsConstants.dart';
 
 class CheckBoxLayer extends StatefulWidget {
-  bool value;
-  Function onPressed;
-  CheckBoxWidgetType type;
-  WidgetDirection direction;
+  final bool value;
+  final Function onPressed;
+  final CheckBoxWidgetType type;
+  final WidgetDirection direction;
   CheckBoxLayer(
       {this.type,
       this.direction = WidgetDirection.ltr,

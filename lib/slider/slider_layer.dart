@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_settings/util/SettingsConstants.dart';
 
 class SliderLayer extends StatefulWidget {
-  double value;
-
+  final double value;
   final Color activeColor;
   final Function onChange, onChangeEnd, onChangeStart;
-  WidgetDirection direction;
+  final WidgetDirection direction;
+  
   SliderLayer(
       {this.direction = WidgetDirection.ltr,
       this.value,

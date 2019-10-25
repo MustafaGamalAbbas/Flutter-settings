@@ -3,8 +3,8 @@ import 'package:flutter_settings/navigator/shapes/arrow_navigator_shape.dart';
 import 'package:flutter_settings/util/SettingsConstants.dart';
 
 class NavigatorLayer extends StatelessWidget {
-  Function onPressed;
-  WidgetDirection direction;
+  final Function onPressed;
+  final WidgetDirection direction;
 
   NavigatorLayer({@required this.direction, this.onPressed, Key key})
       : super(key: key);

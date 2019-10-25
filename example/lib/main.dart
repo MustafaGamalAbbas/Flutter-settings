@@ -69,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
   var _simCaption = "SIM1";
   var _numberCaption;
   var turnOffList;
+  var _selectionIndex = 0;
   WidgetDirection direction;
 
   @override
@@ -186,6 +187,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SettingsSelectionList<int>(
                     items: turnOffList,
+                    chosenItemIndex: _selectionIndex,
                     title: SettingsLocalizations.of(context)
                         .translate('Turn off screen automatically'),
                     caption: _caption,
@@ -194,10 +196,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.blue,
                     ),
                     direction: direction,
-                    onSelect: (value) {
+                    onSelect: (value, index) {
                       Toast.show("You have selected " + value.text.toString(),
                           context);
                       setState(() {
+                        _selectionIndex = index;
                         _caption = SettingsLocalizations.of(context)
                                 .translate("After") +
                             " " +

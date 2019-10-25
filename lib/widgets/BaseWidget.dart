@@ -4,12 +4,12 @@ import 'package:flutter_settings/widgets/Separator.dart';
 import 'package:flutter_settings/widgets/SettingsIcon.dart';
 
 abstract class BaseWidget extends StatelessWidget {
-  SettingsIcon icon;
-  Widget settingsWidget, overlayerWidget;
-  Function onPressed;
-  WidgetDirection direction;
-
-  BaseWidget(
+  final SettingsIcon icon;
+  final Widget settingsWidget, overlayerWidget;
+   Function onPressed;
+  final WidgetDirection direction;
+ 
+    BaseWidget(
       {Key key,
       @required this.settingsWidget,
       @required this.icon,
@@ -17,7 +17,6 @@ abstract class BaseWidget extends StatelessWidget {
       @required this.direction,
       @required this.overlayerWidget})
       : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(

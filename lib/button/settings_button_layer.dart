@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_settings/util/SettingsConstants.dart';
 
 class SettingsButtonLayer extends StatelessWidget {
-  String title;
-  String caption;
+  final String title;
+  final String caption;
   final TextStyle titleStyle, captionStyle;
-  WidgetDirection direction;
+  final WidgetDirection direction;
 
   SettingsButtonLayer(
       {this.direction,

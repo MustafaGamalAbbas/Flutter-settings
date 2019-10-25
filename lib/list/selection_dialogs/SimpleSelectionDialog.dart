@@ -64,7 +64,7 @@ class SimpleSelectionDialog extends StatelessWidget {
                           item.text,
                           items.indexOf(item) == chosenItemIndex, () {
                         this.chosenItemIndex = items.indexOf(item);
-                        onSelect(item);
+                        onSelect(item, chosenItemIndex);
                         Navigator.of(context).pop();
                       }))
                   .toList(),

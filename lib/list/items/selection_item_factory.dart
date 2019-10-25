@@ -6,7 +6,7 @@ import 'package:flutter_settings/util/SettingsConstants.dart';
 class SelectionItemFactory {
   static Widget createSelectionItem(SelectionDialog item,
       WidgetDirection direction, String title, bool check, Function onSelect) {
-    print(item.toString());
+
     if (item == SelectionDialog.SimpleCheck) {
       return SelectionCheckItem(
         direction: direction,
