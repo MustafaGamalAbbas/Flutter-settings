@@ -1,7 +1,7 @@
 {
     "Wireless & networks": "اللاسلكى والشبكات",
     "Wi-Fi": "Wi-Fi",
-    "wifi caffee": "wifi caffee",
+    "wifi caffee": "caffe wifi",
     "Mobile networks": "شبكات الجوال",
     "More": "المزيد",
     "Screen": "الشاشه",
@@ -19,5 +19,6 @@
     "minute": "دقيقة",
     "minutes": "دقائق",
     "of inactivity": "من عدم النشاط",
-    "After": "بعد"
+    "After": "بعد",
+    "Cancel":"الغاء"
 }

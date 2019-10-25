@@ -1,7 +1,7 @@
 {
     "Wireless & networks": "Wireless & networks",
     "Wi-Fi":"Wifi",
-    "wifi caffee": "wifi caffee",
+    "wifi caffee": "caffe wifi",
     "Mobile networks":"Mobile networks",
     "More": "More",
     "Screen": "Screen",
@@ -19,6 +19,7 @@
     "minute":"minute",
     "minutes":"minutes",
     "of inactivity": "of inactivity",
-    "After":"After"
+    "After":"After",
+    "Cancel":"Cancel"
 
 }

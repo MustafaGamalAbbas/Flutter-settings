@@ -1,14 +1,13 @@
-# flutter_settings
+ # flutter_settings
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![pub package](https://img.shields.io/pub/v/charts_common.svg)](https://pub.dartlang.org/packages/charts_common)
 
-This package provides some settings widget to use it in settings screen.
 
-## Getting Started
+**This package provides some settings widget to use it in your settings screen.**
+- it has the most widgets which have been used in any settings screen.
+- it offers full LTR and RTL support for apps of all languages. 
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+#### Package Presentation 
+![Image](images/flutter_settings.gif)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+#### Example
