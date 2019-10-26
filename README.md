@@ -11,3 +11,5 @@
 ![Image](images/flutter_settings.gif)
 
 #### Example
+
+![Image](images/wifi.png)
