@@ -18,16 +18,19 @@ class SettingsSelectionList<T> extends SettingsButton {
     String dialogTitle,
     String dismissTitle,
     String caption,
+    TextStyle titleStyle,
+    TextStyle captionStyle,
     SettingsIcon icon,
     @required Function onSelect,
     WidgetDirection direction = WidgetDirection.ltr,
   }) : super(
-          icon: icon,
-          title: title,
-          caption: caption,
-          direction: direction,
-          onPressed: null
-        ) {
+            titleStyle: titleStyle,
+            captionStyle: captionStyle,
+            icon: icon,
+            title: title,
+            caption: caption,
+            direction: direction,
+            onPressed: null) {
     dialog = SimpleSelectionDialog(
       direction: direction,
       dialogTitle: dialogTitle ?? title,

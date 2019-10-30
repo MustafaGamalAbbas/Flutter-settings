@@ -7,12 +7,11 @@ import 'package:flutter_settings/widgets/SettingsIcon.dart';
 
 class SettingsSlider extends BaseWidget {
   SettingsSlider({
-    Widget settingsWidget,
     SettingsIcon icon,
-    Function onChange,
+    @required Function onChange,
     Function onChangeEnd,
     Function onChangeStart,
-    double value = 0.0,
+    @required double value,
     Color activeColor,
     WidgetDirection direction = WidgetDirection.ltr,
   }) : super(
