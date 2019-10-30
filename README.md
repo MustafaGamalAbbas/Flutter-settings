@@ -270,7 +270,7 @@ I'll break it out and show you the different widget which you can use and custom
 
 
 
-> ## How can I collaborate on this package?
+## How can I collaborate on this package?
 > **I'll tell you soon.**
  
 License
