@@ -269,9 +269,9 @@ I'll break it out and show you the different widget which you can use and custom
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/wifi_rtl.png)
 
 
-
+-------
 ## How can I collaborate on this package?
-> **I'll tell you soon.**
+> ### I'll tell you soon. 
  
 License
 ----
