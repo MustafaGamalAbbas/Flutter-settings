@@ -172,10 +172,10 @@ class _MyHomePageState extends State<MyHomePage> {
               SettingsCheckBox(
                 title: SettingsLocalizations.of(context)
                     .translate('Auto-rotate screen'),
-                icon: new SettingsIcon(
-                  icon: Icons.phone_android,
-                  color: Colors.blueGrey,
-                ),
+                  icon: new SettingsIcon(
+                    icon: Icons.phone_android,
+                    color: Colors.blueGrey,
+                  ),
                 direction: direction,
                 onPressed: (value) {
                   Toast.show(
