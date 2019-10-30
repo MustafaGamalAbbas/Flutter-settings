@@ -8,8 +8,8 @@ import 'package:flutter_settings/widgets/SettingsIcon.dart';
 class SettingsButton extends BaseWidget {
   SettingsButton(
       {SettingsIcon icon,
-      Function onPressed,
-      String title,
+      @required Function onPressed,
+      @required String title,
       WidgetDirection direction = WidgetDirection.ltr,
       String caption,
       TextStyle titleStyle,

@@ -1,4 +1,4 @@
-import 'package:example/icons/custom_icons_icons.dart';
+import 'package:example/icons/custom_icons.dart';
 import 'package:example/localization/settings_localization.dart';
 import 'package:example/widgets/wireless_networks.dart';
 import 'package:flutter/cupertino.dart';

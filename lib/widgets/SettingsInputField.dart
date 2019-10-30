@@ -10,7 +10,7 @@ class SettingsInputField extends SettingsButton {
     String dialogButtonText = "Okay",
     SettingsIcon icon,
     @required String title,
-    Function onPressed,
+    @required Function onPressed,
     @required BuildContext context,
     WidgetDirection direction = WidgetDirection.ltr,
     TextInputType keyboardType = TextInputType.text,

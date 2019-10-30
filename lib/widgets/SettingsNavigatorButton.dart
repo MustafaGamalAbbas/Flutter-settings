@@ -12,7 +12,7 @@ class SettingsNavigatorButton extends SettingsButton {
     @required this.targetWidget,
     @required BuildContext context,
     SettingsIcon icon,
-    String title,
+    @required String title,
     TextStyle titleStyle,
     TextStyle captionStyle,
     WidgetDirection direction = WidgetDirection.ltr,

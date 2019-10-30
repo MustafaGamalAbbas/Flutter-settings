@@ -26,6 +26,7 @@ class SettingsSelectionList<T> extends SettingsButton {
           title: title,
           caption: caption,
           direction: direction,
+          onPressed: null
         ) {
     dialog = SimpleSelectionDialog(
       direction: direction,
