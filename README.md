@@ -8,6 +8,7 @@
 
 ## Package Presentation 
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/flutter_settings.gif)
+
 You can check out the whole code of this exmaple through this [link](https://github.com/MustafaGamalAbbas/Flutter-settings/blob/master/example/lib/main.dart).
 #### Break it out 
 I'll break it out and show you the different widget which you can use and customize your widget.
@@ -25,6 +26,7 @@ I'll break it out and show you the different widget which you can use and custom
  * **captionStyle** (optional): customize your button caption. 
 
 **Example**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/wifi.png)
 
 ``` import 'package:flutter_settings/widgets/SettingsButton.dart';```
