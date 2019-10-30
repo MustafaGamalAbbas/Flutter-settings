@@ -30,6 +30,7 @@ I'll break it out and show you the different widget which you can use and custom
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/wifi.png)
 
 ``` import 'package:flutter_settings/widgets/SettingsButton.dart';```
+
 ```dart 
  SettingsButton(
                 title: "Wi-Fi",
@@ -45,13 +46,16 @@ I'll break it out and show you the different widget which you can use and custom
 ```
 
 #### SettingsCheckBox Widget
- >> SettingsCheckBox is widget which provides [on, off] choose, it has some properties  SettingsButton and an additional properties like:
+ > SettingsCheckBox is widget which provides [on, off] choose, it has some properties  SettingsButton and an additional properties like:
  * **value** (required): init value for widget to make it **on** or **off**
  * **type** (optional): which shape you need to use in your widget(CheckBox , Switch).[there is some shapes will be made in the future], it is **CheckBox** by default.
 
 **Example**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/displayNetworkSpeed.png)
+
 ``` import 'package:flutter_settings/widgets/SettingsCheckBox.dart';```
+
 ```dart 
  SettingsCheckBox(
                 title: 'Display network speed',
@@ -75,7 +79,9 @@ I'll break it out and show you the different widget which you can use and custom
  * **targetWidget** (required): the widget you need to move on once clicking on the widget.
 
 **Example**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/more.png)
+
 ``` import 'package:flutter_settings/widgets/SettingsNavigatorButton.dart';```
 ```dart 
   SettingsNavigatorButton(
@@ -97,12 +103,17 @@ I'll break it out and show you the different widget which you can use and custom
  * **keyboardType** (optional): TextInputType which decides the type that will be used to take input from the user.
 
 **Example**
+
 * **Settings Input field Button**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/enterName.png)
+
 * **Settings Input field Dialog**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/editSIMName.png)
 
 ``` import 'package:flutter_settings/widgets/SettingsInputField.dart';```
+
 ```dart 
   SettingsInputField(
                 dialogButtonText: 'Done',
@@ -129,10 +140,13 @@ I'll break it out and show you the different widget which you can use and custom
  
 
 **Example**
+
  * **Settings Input field Button**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/turnoff.png)
 
 * **Settings Input field Dialog**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/trunoffList.png)
 
 ```import 'package:flutter_settings/widgets/SettingsSelectionList.dart';```
@@ -179,8 +193,11 @@ I'll break it out and show you the different widget which you can use and custom
  * **icon** (optional): that makes your button more pretty and descriptive, its background and IconDate and its color are changeable, feel free to make your Icon.
  * **direction** (optional): which specify the arrangement of the widgets in the button, it will be LTR or RTL, by default its value is LTR.
 **Example**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/brightness.png) 
+
 ``` import 'package:flutter_settings/widgets/SettingsNavigatorButton.dart';```
+
 ```dart 
   SettingsSlider(
                 value: 0.5,
@@ -205,10 +222,14 @@ I'll break it out and show you the different widget which you can use and custom
  * **color** (optional): The color to use when drawing the icon, it uses white color by default.
  * **backgroundColor** (optional): The background color to the Icon.
  * **text** (optional):  text to make your icon more descriptive if it need that.
+
 **Example**
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/icons.png)
+
 ``` import 'package:flutter_settings/widgets/SettingsIcon.dart';```
-- first Icon 
+
+- First Icon 
     ```dart 
   SettingsIcon(
             icon: Icons.brightness_7,
@@ -216,14 +237,14 @@ I'll break it out and show you the different widget which you can use and custom
             text: 'Brightness',
             ),
     ```
-- second Icon 
+- Second Icon 
     ```dart 
    SettingsIcon(
             icon: Icons.more_horiz,
             backgroundColor: Colors.orange,
             ),
     ```
-- third Icon 
+- Third Icon 
     ```dart 
    SettingsIcon(
             icon: Icons.phone_android,
@@ -237,11 +258,14 @@ I'll break it out and show you the different widget which you can use and custom
  just assign direction property in your widget to `WidgetDirection.ltr` or don't assign anything, it `WidgetDirection.ltr` by default.
  
  **Example** 
+
  ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/wifi.png)
 
 #### Right to Left
  here, you need to assign direction property in your widget to `WidgetDirection.rtl`.
+
 **Example** 
+
 ![Image](https://raw.githubusercontent.com/MustafaGamalAbbas/Flutter-settings/master/images/wifi_rtl.png)
 
 
