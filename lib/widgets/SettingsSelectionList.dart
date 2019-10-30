@@ -19,7 +19,7 @@ class SettingsSelectionList<T> extends SettingsButton {
     String dismissTitle,
     String caption,
     SettingsIcon icon,
-    Function onSelect,
+    @required Function onSelect,
     WidgetDirection direction = WidgetDirection.ltr,
   }) : super(
           icon: icon,
